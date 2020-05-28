@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fagment :: head(~{::title})">
+    <meta charset="UTF-8">
+    <title>500</title>
+</head>
+<body>
+
+
+<!--导航栏-->
+<nav class="ui inverted attached segment nav-padding-tb-mini shadow-small">
+    <div class="ui container">
+        <div class="ui inverted stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="item mobile-hide jq-item"><i class=" home icon"></i>首页</a>
+            <a href="#" class="item mobile-hide jq-item"><i class=" idea icon"></i>分类</a>
+            <a href="#" class="item mobile-hide jq-item"><i class=" tags icon"></i>标签</a>
+            <a href="#" class="item mobile-hide jq-item"><i class=" clone icon"></i>归档</a>
+            <a href="#" class="item mobile-hide jq-item"><i class=" info icon"></i>关于我</a>
+            <div class="right item mobile-hide jq-item">
+                <div class="ui icon input">
+                    <input type="text" placeholder="Search..." />
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button a-top-right mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<div class="me-container-small padding-tb-big">
+    <div class="ui error message">
+        <div class="ui container">
+            <h2>500</h2>
+            <p>页面发生错误！.......</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
