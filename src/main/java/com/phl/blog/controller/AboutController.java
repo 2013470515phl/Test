@@ -12,6 +12,7 @@ public class AboutController {
 
     @GetMapping("/about")
     public String about(){
+        System.out.println("测试");
         return "about";
     }
 }
